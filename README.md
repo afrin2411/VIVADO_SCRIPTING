@@ -1,5 +1,5 @@
 # VIVADO AUTOMATION 
-This project aims to automate Xilinx Vivado Tool from creation of file to generation of results. The project uses various libraries from python like pandas, numpy and also VS studio to run them.
+This project aims to automate Xilinx Vivado Tool from creation of file to generation of results. A basic Tcl build script replicates the typical FPGA workflow of synthesis, place, route, and write bitstream. The whole build takes place in memory without creating project files, so it’s faster than building in the GUI. The project uses various libraries from python like pandas, numpy and also VS studio to run them.
 
 - It imports the required libraries: os, pandas and numpy
 - It lists all the Verilog  files in the directory.
